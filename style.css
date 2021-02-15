@@ -1,0 +1,40 @@
+body{
+    line-height: 2em;
+    text-align: center;
+}
+header{
+    background-color: #0094C6;
+    height: 14vh;
+    width: 100%;
+    text-align: end; 
+    border-bottom: #001242 2px solid;
+    position: fixed;  
+}
+#navbar a{
+    color:#001242 ;
+    text-decoration: none;
+    font-family: 'Newsreader', serif;
+    font-size: 24px;
+}
+#link{
+    margin-top: 20px;
+}
+#welcome-section{
+    background-color: rgb(233, 16, 59);
+    height:86vh;
+    color: darkkhaki;
+    font-family: 'Ranchers', cursive;
+    position: relative;
+}
+h1{
+    font-size: 35px;
+}
+#welcome-section p{
+    font-size: 22px;
+    color: #001242;
+    font-family: 'Newsreader', serif;
+    font-style: italic;
+
+    
+
+}
