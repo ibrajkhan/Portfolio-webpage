@@ -34,8 +34,16 @@ header{
 h1{
     font-size: 35px;
 }
+h2{
+    color: cornsilk;
+}
 #projects{
     display: flex;
     flex-direction: column;
     background-color: rgb(31, 70, 70);
+}
+.title-underground{
+    width: 420px;
+    height: 10px;
+    margin: 0 auto;
 }
