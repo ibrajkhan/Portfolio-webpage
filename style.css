@@ -47,3 +47,32 @@ h2{
     height: 10px;
     margin: 0 auto;
 }
+#social-media{
+    background-color:rgb(71, 8, 107);
+    color: cornsilk;
+    border-bottom: crimson 2px solid;
+}
+.med{
+    color: cornsilk;
+}
+.social-account {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   flex-wrap: wrap;
+
+}
+.ad{
+    padding: 20px;
+}
+.ad a{
+    text-decoration: none;
+    color: cornsilk;  
+}
+span{
+    padding: 5px;
+}
+footer{
+    background-color: rgb(71, 8, 107);
+    color: cornsilk;
+}
