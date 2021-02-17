@@ -3,18 +3,22 @@ body{
     text-align: center;
 }
 header{
-    background-color: #0094C6;
+    background-color: rgb(48, 43, 43);
     height: 14vh;
     width: 100%;
     text-align: end; 
-    border-bottom: #001242 2px solid;
-    position: fixed; 
+    border-bottom: crimson 3px solid;
+    position: fixed;
 }
 #navbar a{
     color:#001242 ;
     text-decoration: none;
     font-family: 'Newsreader', serif;
     font-size: 24px;
+    color: cornsilk;
+}
+#navbar a:hover{
+    color: crimson;
 }
 #link{
     margin-top: 20px;
@@ -24,15 +28,22 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Reggae One', cursive;
     height: 100vh;
-    background-color: brown;
-    color: cornsilk;
+    background-color: rgb(42, 165, 93);
+    color:rgb(197, 192, 126);
 }
 #welcome{
     padding-top: 70px;
 }
+#welcome P{
+    color:crimson;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
 h1{
-    font-size: 35px;
+    font-size: 45px;
 }
 h2{
     color: cornsilk;
@@ -42,6 +53,13 @@ h2{
     flex-direction: column;
     background-color: rgb(31, 70, 70);
 }
+.in a{
+    color: cornsilk;
+    text-decoration: none;
+}
+.in a:hover{
+    font-weight: bold;
+}
 .title-underground{
     width: 420px;
     height: 10px;
@@ -50,7 +68,9 @@ h2{
 #social-media{
     background-color:rgb(71, 8, 107);
     color: cornsilk;
-    border-bottom: crimson 2px solid;
+    border-bottom: crimson 3px solid;
+    min-height: 70vh;
+    padding-top: 10px;
 }
 .med{
     color: cornsilk;
@@ -60,6 +80,7 @@ h2{
    justify-content: center;
    width: 100%;
    flex-wrap: wrap;
+   margin-top: 30px;
 
 }
 .ad{
@@ -75,4 +96,7 @@ span{
 footer{
     background-color: rgb(71, 8, 107);
     color: cornsilk;
+}
+.ad :hover{
+    color:rgb(124, 111, 111);
 }
