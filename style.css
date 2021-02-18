@@ -14,14 +14,15 @@ header{
     color:#001242 ;
     text-decoration: none;
     font-family: 'Newsreader', serif;
-    font-size: 24px;
+    font-size: 21px;
     color: cornsilk;
 }
 #navbar a:hover{
     color: crimson;
+    text-decoration: underline;
 }
 #link{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #welcome-section{
     display: flex;
@@ -45,12 +46,10 @@ header{
 h1{
     font-size: 45px;
 }
-h2{
-    color: cornsilk;
-}
 #projects{
     display: flex;
     flex-direction: column;
+    color: cornsilk;
     background-color: rgb(31, 70, 70);
 }
 .in a{
@@ -59,17 +58,18 @@ h2{
 }
 .in a:hover{
     font-weight: bold;
+    text-decoration: underline;
 }
 .title-underground{
-    width: 420px;
-    height: 10px;
+    width: 80%;
+    height: 5px;
     margin: 0 auto;
 }
 #social-media{
     background-color:rgb(71, 8, 107);
     color: cornsilk;
     border-bottom: crimson 3px solid;
-    min-height: 70vh;
+    min-height: 72vh;
     padding-top: 10px;
 }
 .med{
@@ -99,4 +99,5 @@ footer{
 }
 .ad :hover{
     color:rgb(124, 111, 111);
+    text-decoration: underline;
 }
