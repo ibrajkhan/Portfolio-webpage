@@ -57,8 +57,8 @@ h1{
     text-decoration: none;
 }
 .in a:hover{
-    font-weight: bold;
     text-decoration: underline;
+    color: crimson;
 }
 .title-underground{
     width: 80%;
@@ -81,7 +81,6 @@ h1{
    width: 100%;
    flex-wrap: wrap;
    margin-top: 30px;
-
 }
 .ad{
     padding: 20px;
@@ -100,4 +99,7 @@ footer{
 .ad :hover{
     color:rgb(124, 111, 111);
     text-decoration: underline;
+}
+img:hover{
+    border: crimson 2px solid;
 }
