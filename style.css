@@ -36,9 +36,14 @@ nav{
     justify-content: center;
     align-items: center;
     font-family: 'Reggae One', cursive;
-    height: 100vh;
-    background-color: rgb(42, 165, 93);
+    min-height: 95vh;
     color:rgb(197, 192, 126);
+    background:url(./img/red\ key.jpg);
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
 }
 #welcome{
     padding-top: 70px;
