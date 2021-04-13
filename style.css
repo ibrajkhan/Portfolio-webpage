@@ -36,17 +36,17 @@ nav{
     justify-content: center;
     align-items: center;
     font-family: 'Reggae One', cursive;
-    min-height: 95vh;
-    color:rgb(197, 192, 126);
-    background:url(./img/red\ key.jpg);
+    min-height: 100vh;
+    color:rgb(253, 253, 253);
+    background:url(./img/pexels-hasan-albari-1229861.jpg);
     background-size: cover;
-    background-position:bottom;
+    background-position:center;
     background-repeat: repeat;
     background-attachment: fixed;
 
 }
 #welcome P{
-    color:crimson;
+    color:rgb(199, 42, 42);
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
